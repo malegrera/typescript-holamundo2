@@ -54,3 +54,9 @@ Establece el sistema de módulos para el programa. Consulte la página de refere
 {
     module: "CommonJS"
 }
+
+https://code.visualstudio.com/docs/typescript/typescript-debugging
+La depuración de TypeScript admite mapas fuente de JavaScript. 
+Para generar mapas de origen para sus archivos TypeScript, 
+compile con la opción --sourcemap opción o establezca la propiedad sourceMap en el  
+archivo tsconfig.json en true.

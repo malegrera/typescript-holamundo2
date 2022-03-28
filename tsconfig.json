@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "target": "ESNext", 
+    "target": "ES5", 
     "module": "CommonJS", 
     "outDir": "./dist",   
     "rootDir": "./src", 
     "strict": true,
     "incremental": true,
     "tsBuildInfoFile": "./buildcache",
+    "sourceMap": true
   }
 }
