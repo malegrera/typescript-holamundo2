@@ -2,6 +2,7 @@ https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 
 https://desarrolloweb.com/articulos/configurar-proyecto-typescript.html
 
+```
 {
   "compilerOptions": {
     "target": "es5", //versión de js a la que queremos compilar
@@ -9,20 +10,20 @@ https://desarrolloweb.com/articulos/configurar-proyecto-typescript.html
     "rootDir": "src" //archivos fuente .ts
   }
 }  
-
+```
 Lanzar el watcher (tsc -w)  
 
 Terminal --> Ejecutar tarea de compilación (Ctrl+Mays+B) -->tsc:inspección:tsconfig.json  
 
 Otras opciones del fichero:  
-
+```
 {
   "compilerOptions": {
     "noImplicitAny": true,
     "strictNullChecks": true //null y undefined tienes sus propios tipos
   }
 }
-
+```
 Array de nombres de archivo o patrones para incluir en el programa  
 {
   "include": ["src/**/*", "tests/**/*"]
