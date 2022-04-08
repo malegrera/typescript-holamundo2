@@ -54,6 +54,10 @@ Establece el sistema de módulos para el programa. Consulte la página de refere
 {
     module: "CommonJS"
 }
+Muestra los nombres de los ficheros.
+{
+ "explainFiles": true
+}
 
 https://code.visualstudio.com/docs/typescript/typescript-debugging
 La depuración de TypeScript admite mapas fuente de JavaScript. 
